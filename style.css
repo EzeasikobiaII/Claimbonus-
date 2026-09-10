@@ -837,71 +837,41 @@ footer {
     .arrow {
         display: none;
     }
+/* ==============================
+   ARTICLE STYLES
+   ============================== */
 
+.article-image {
+    margin: 30px 0;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.article-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.article-disclosure {
+    margin: 35px 0;
+    padding: 24px;
+    border-radius: 12px;
+    background: #f5f7fa;
+    border: 1px solid #e1e5ea;
+}
+
+.article-disclosure h2 {
+    margin-top: 0;
+}
+
+.article-disclosure p {
+    margin-bottom: 0;
+}
     .footer-content {
         flex-direction: column;
     }
 
     .footer-links {
         flex-wrap: wrap;
-    }
-
-}
-
-Commit message:
-
-Upgrade ClaimBonus visual design
-
-Then tap Commit changes.
-
----
-
-🚀 What you've just built
-
-Your homepage now has a proper structure:
-
-                    CLAIMBONUS
-                        │
-                        ↓
-              ┌──────────────────┐
-              │      HERO        │
-              │ Discover More    │
-              │ Save More        │
-              │ Live Smarter     │
-              └────────┬─────────┘
-                       ↓
-              ┌──────────────────┐
-              │ SIX CONTENT      │
-              │ SILOS            │
-              └────────┬─────────┘
-                       ↓
-       ┌───────────────┼────────────────┐
-       ↓               ↓                ↓
-    MONEY            APPS            SHOPPING
-       ↓               ↓                ↓
-     JOBS            GAMING         LIFESTYLE
-                       │
-                       ↓
-                  ABOUT SECTION
-                       │
-                       ↓
-                    CTA
-                       │
-                       ↓
-                    FOOTER
-
-One important thing
-
-The category buttons currently contain:
-
-href="#"
-
-That's intentional.
-
-Don't click them expecting pages yet.
-
-The next stage is to create the actual six category pages and connect each card to its proper page.
-
-After that, we'll add your Privacy Policy, Terms, and Disclaimer, then connect your "claimbonus.store" domain.
-
-Once you've committed both files, refresh your live website. You should see the new ClaimBonus design.
+    
