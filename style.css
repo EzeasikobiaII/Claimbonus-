@@ -874,4 +874,18 @@ footer {
 
     .footer-links {
         flex-wrap: wrap;
+        /* Shopping page hero image */
+
+.hero-image {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 18px;
+    display: block;
+}
     
