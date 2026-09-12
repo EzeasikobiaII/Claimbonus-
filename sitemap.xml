@@ -31,6 +31,10 @@
     </url>
 
     <url>
+        <loc>https://claimbonusnow.store/opportunities.html</loc>
+    </url>
+
+    <url>
         <loc>https://claimbonusnow.store/privacy.html</loc>
     </url>
 
@@ -48,18 +52,45 @@
 
     <url>
         <loc>https://claimbonusnow.store/best-free-budgeting-apps-2026.html</loc>
+    </url>
+
     <url>
-        <url>
         <loc>https://claimbonusnow.store/10-useful-free-apps-2026.html</loc>
     </url>
-        <url>
-    <loc>https://claimbonusnow.store/smart-ways-save-money-online-shopping-2026.html</loc>
-</url>
-        <url>
-    <loc>https://claimbonusnow.store/10-legitimate-ways-to-find-remote-jobs-2026.html</loc>
-</url>
-        <url>
-    <loc>https://claimbonusnow.store/opportunities.html</loc>
-</url>
+
+    <url>
+        <loc>https://claimbonusnow.store/smart-ways-save-money-online-shopping-2026.html</loc>
+    </url>
+
+    <url>
+        <loc>https://claimbonusnow.store/10-legitimate-ways-to-find-remote-jobs-2026.html</loc>
+    </url>
 
 </urlset>
+
+On your phone
+
+1. Select everything currently inside "sitemap.xml".
+2. Delete it.
+3. Paste the corrected version above.
+4. Scroll down.
+5. Enter a commit message such as:
+   "Fix sitemap and add opportunities page"
+6. Tap Commit changes.
+
+Important
+
+Your "opportunities.html" entry is now correctly included:
+
+"https://claimbonusnow.store/opportunities.html"
+
+And the malformed section:
+
+<url>
+    <loc>...</loc>
+<url>
+<url>
+
+has been fixed.
+
+Do this first. Don't resubmit anything to Google yet. Once you've committed it, tell me “Done”, and we'll handle the footer link, then move straight into Money & Savings CPA integration.
